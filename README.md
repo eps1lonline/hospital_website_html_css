@@ -11,3 +11,10 @@
   - перечень услуг и рецептов, относящихся к отдельному пациенту, оказанных/выписанных в заданный период времени;
   - график работ врачей и записанных\принятых пациентов за день;
   - счёт клиенту клиники на оплату медицинской услуги.
+
+
+Главная: ![image](https://github.com/eps1lonline/addition_and_multiplication_table_html_css/assets/113098677/42742e4c-66fb-420c-be09-698d30d1dbb2)
+О нас: ![image](https://github.com/eps1lonline/addition_and_multiplication_table_html_css/assets/113098677/72336ab6-1552-4b0e-b192-593cd53cc585)
+Горячая линия: ![image](https://github.com/eps1lonline/addition_and_multiplication_table_html_css/assets/113098677/485907fa-9623-486a-8398-f47a08e2ce71)
+Войти: ![image](https://github.com/eps1lonline/addition_and_multiplication_table_html_css/assets/113098677/23435c4c-89c7-4e0d-8bfe-6245d32233f4)
+Процедуры, появляются после того, как вы войдёте в акк: ![image](https://github.com/eps1lonline/addition_and_multiplication_table_html_css/assets/113098677/d1aca438-4fea-4176-bdf0-56423ae37859)
