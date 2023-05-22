@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: black;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 50px 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+
+
+/*header*/
+
+.header {
+    border-radius:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: rgb(224, 227, 235, 0.7);
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.num {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.phone-text {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.phone-img img {
+    width: 20px;
+    height: 20px;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*cards*/
+
+.cards, .procedure {
+    column-gap: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.card, .proc {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px;
+    border-radius:30px;
+    flex: 1 1 auto;
+
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: rgb(224, 227, 235, 0.7);
+}
+
+.card-title, .proc-title {
+    text-align: center;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-desc, .proc-desc {
+    text-indent: 25px;
+    text-align: justify;
+
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*history*/
+
+.history {
+    padding: 15px;
+    border-radius:30px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: rgb(224, 227, 235, 0.7);
+    width: 100%;
+}
+
+.history-title {
+    text-align: center;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.history-desc {
+    text-indent: 25px;
+    text-align: justify;
+
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/*onas*/
+
+.onas {
+    padding: 15px;
+    border-radius:30px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: rgb(224, 227, 235, 0.7);
+    width: 100%;
+}
+
+.onas-title {
+    text-align: center;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.onas-desc {
+    text-indent: 25px;
+    text-align: justify;
+
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/*hotline*/
+
+.hotline {
+    padding: 15px;
+    border-radius:30px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: rgb(224, 227, 235, 0.7);
+    width: 100%;
+}
+
+.hotline-title {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hotline-title:not(:first-of-type) {
+    margin-top: 50px;
+}
+
+.hotline-desc p {
+    text-indent: 25px;
+    text-align: justify;
+
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hotline-desc .note {   
+    font-weight: 800;
+    font-size: 13px;
+    margin-top: 30px;
+}
+ 
+
+
+/*reg*/
+
+.login {
+    padding: 50px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: rgb(224, 227, 235, 0.7);
+    border-radius:30px;
+
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.login-form-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.item {
+    font-size: 20px;
+    border: 3px solid gray;
+    width: 100%;
+    border-radius:10px;
+    padding:10px 20px;
+}
+
+.create-account {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #5bbb86;
+    border: 3px solid white;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+/*procedure*/
+
+.proc-image {
+    align-self: center;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    border-radius: 15px;
+    align-items: center;
+    width: 70%;
+}
